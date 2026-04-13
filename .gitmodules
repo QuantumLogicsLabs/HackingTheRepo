@@ -1,0 +1,6 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/QuantumLogicsLabs/HackingTheRepo-Backend.git
+[submodule "backend"]
+	path = backend
+	url = https://github.com/QuantumLogicsLabs/HackingTheRepo-Frontend.git
