@@ -4,3 +4,6 @@
 [submodule "backend"]
 	path = backend
 	url = https://github.com/QuantumLogicsLabs/HackingTheRepo-Frontend.git
+[submodule "repomind"]
+	path = repomind
+	url = https://github.com/QuantumLogicsLabs/RepoMind.git
