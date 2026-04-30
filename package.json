@@ -1,18 +1,15 @@
 {
-  "name": "hackingtherepo",
+  "name": "repomind-ui",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "MERN stack UI for RepoMind AI PR Bot",
   "scripts": {
-    "start": "node backend/server.js",
-    "server": "cd backend && npm run dev",
-    "client": "cd frontend && npm run dev",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "concurrently": "^9.2.1"
+    "concurrently": "^8.2.2"
   }
 }
